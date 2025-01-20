@@ -21,6 +21,7 @@ jobs:
       run: |
         pip install fastapi uvicorn pyngrok python-multipart
         pip install joblib pandas numpy jinja2
+        pip install pytest
 
     - name: Run Tests
       run: |
