@@ -14,8 +14,8 @@ def test_predict_price():
     response = client.post("/predict/", json={
         "car_parks": 2,
         "size_num": 1000,
-        "location": "suburb",
-        "furnishing": "unfurnished"
+        "location": "ampang",
+        "furnishing": "fully_furnished"
     })
     assert response.status_code == 200
     assert "predicted_price" in response.json()
