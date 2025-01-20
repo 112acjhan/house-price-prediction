@@ -20,7 +20,7 @@ jobs:
     - name: Install dependencies
       run: |
         pip install fastapi uvicorn pyngrok python-multipart
-        pip install joblib pandas numpy jinja2 scikit-learn==1.6.0
+        pip install joblib pandas numpy jinja2 scikit-learn==1.3.2
         pip install pytest httpx pytest-asyncio
 
     - name: Run Tests
